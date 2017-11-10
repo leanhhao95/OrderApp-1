@@ -74,7 +74,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="gLV-Ws-xMj">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="gLV-Ws-xMj" customClass="MealTableViewCell" customModule="OrderApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gLV-Ws-xMj" id="rdT-QA-X2m">
@@ -120,6 +120,11 @@
                                         <constraint firstItem="9IN-Lk-Rk5" firstAttribute="top" secondItem="rdT-QA-X2m" secondAttribute="top" id="zi8-lF-3b0"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="mealNameLabel" destination="t53-Nd-nKs" id="ORQ-11-H4t"/>
+                                    <outlet property="photoImageView" destination="TUh-MP-Zan" id="eTf-gr-32O"/>
+                                    <outlet property="priceLabel" destination="s2n-zy-3qn" id="wi5-kk-eAu"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
