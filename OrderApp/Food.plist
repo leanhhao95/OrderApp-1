@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Food</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>COMBO BURGER VÀNG</string>
+			<key>RestaurantCode</key>
+			<integer>1</integer>
+			<key>Price</key>
+			<integer>89000</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>COMBO GÀ VÀNG</string>
+			<key>RestaurantCode</key>
+			<integer>1</integer>
+			<key>Price</key>
+			<integer>89000</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>COMBO GÀ RÁN</string>
+			<key>RestaurantCode</key>
+			<integer>1</integer>
+			<key>Price</key>
+			<integer>79000</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>COMBO PHẦN ĂN TRẺ EM</string>
+			<key>RestaurantCode</key>
+			<integer>1</integer>
+			<key>Price</key>
+			<integer>56000</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>GÀ QUAY TIÊU/ GÀ BIG&apos;NJUICY</string>
+			<key>RestaurentCode</key>
+			<integer>1</integer>
+			<key>Price</key>
+			<integer>79000</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>COMBO CHIZZA</string>
+			<key>RestaurentCode</key>
+			<integer>1</integer>
+			<key>Price</key>
+			<integer>79000</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>COMBO DOUBLE MEAL</string>
+			<key>RestaurentCode</key>
+			<integer>1</integer>
+			<key>Price</key>
+			<integer>175000</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>COMBO TEEN&apos;S CHOICE</string>
+			<key>RestaurentCode</key>
+			<integer>1</integer>
+			<key>Price</key>
+			<integer>63000</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>COMBO FAMILY MEAL</string>
+			<key>RestaurentCode</key>
+			<integer>1</integer>
+			<key>Price</key>
+			<integer>245000</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>MÌ TRỘN </string>
+			<key>RestaurentCode</key>
+			<integer>2</integer>
+			<key>Price</key>
+			<integer>10000</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>CƠM TRỨNG CHIÊN VÀ CÁ HỘP</string>
+			<key>RestaurentCode</key>
+			<integer>2</integer>
+			<key>Price</key>
+			<integer>20000</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>BÁNH MÌ</string>
+			<key>RestaurentCode</key>
+			<integer>2</integer>
+			<key>Price</key>
+			<integer>10000</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>BÁNH BAO</string>
+			<key>RestaurentCode</key>
+			<integer>2</integer>
+			<key>Price</key>
+			<integer>8000</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>CƠM NẮM</string>
+			<key>RestaurentCode</key>
+			<integer>2</integer>
+			<key>Price</key>
+			<integer>15000</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>BÁNH GIÒ</string>
+			<key>RestaurentCode</key>
+			<integer>2</integer>
+			<key>Price</key>
+			<integer>10000</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>SANDWICH</string>
+			<key>RestaurentCode</key>
+			<integer>2</integer>
+			<key>Price</key>
+			<integer>25000</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>BÁNH SU KEM</string>
+			<key>RestaurentCode</key>
+			<integer>2</integer>
+			<key>Price</key>
+			<integer>7000</integer>
+		</dict>
+	</array>
+</dict>
+</plist>
