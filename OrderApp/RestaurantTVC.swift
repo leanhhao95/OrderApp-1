@@ -12,7 +12,7 @@ struct ListAddress {
     let name: String
     let address: String
 }
-class ListRestaurant: UITableViewController, UISearchBarDelegate, UISearchResultsUpdating{
+class RestaurantTVC: UITableViewController, UISearchBarDelegate, UISearchResultsUpdating{
     
 
     var listRestaurant = [ ListAddress(name: "Thanh Xuân 1", address: "Số 1 Chiến Thắng"),
@@ -26,7 +26,14 @@ class ListRestaurant: UITableViewController, UISearchBarDelegate, UISearchResult
     override func viewDidLoad() {
         super.viewDidLoad()
         filteredRest = listRestaurant
-        
+        createSearchVC()
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    func createSearchVC() {
         searchController.searchBar.placeholder = "Search Address"
         searchController.searchResultsUpdater = self
         searchController.dimsBackgroundDuringPresentation = false
@@ -35,12 +42,6 @@ class ListRestaurant: UITableViewController, UISearchBarDelegate, UISearchResult
         navigationItem.searchController = searchController
         navigationItem.hidesSearchBarWhenScrolling = true
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
    
     // MARK: - Table view data source
 
@@ -80,6 +81,10 @@ class ListRestaurant: UITableViewController, UISearchBarDelegate, UISearchResult
         })
         tableView.reloadData()
     }
+    @IBAction func openSlideMenu(_ sender: UIBarButtonItem) {
+        NotificationCenter.default.post(name: NotificationKey.slideMenuKey, object: nil)
+    }
+    
     
 }
 
