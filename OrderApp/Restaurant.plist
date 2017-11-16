@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Restaurant</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>KFC Vincom Bắc Từ Liêm</string>
+			<key>Address</key>
+			<string>Số 234, Phạm Văn Đồng</string>
+			<key>RestaurantCode</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>KFC BigC Hà nội</string>
+			<key>Address</key>
+			<string>222 Trần Duy Hưng</string>
+			<key>RestaurantCode</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>KFC Mỹ Đình</string>
+			<key>Address</key>
+			<string>Toà Nhà A1 Nguyễn Cơ Thạch</string>
+			<key>RestaurantCode</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>KFC Ebest Mall</string>
+			<key>Address</key>
+			<string>Tầng 1, TTTM Ebest Mall, </string>
+			<key>RestaurantCode</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Circle K DN4</string>
+			<key>Address</key>
+			<string>Tầng 1, Đơn Nguyên 4, KTX Mỹ Đình</string>
+			<key>RestaurantCode</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Circle K Nguyễn Hoàng</string>
+			<key>Address</key>
+			<string>N1H1, Số 1 Nguyễn Hoàng, P.Mỹ Đình</string>
+			<key>RestaurantCode</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Circle K Phạm Hùng</string>
+			<key>Address</key>
+			<string>Tầng 1, Toà nhà FLC Complex, 36 Phạm Hùng, P.Mỹ Đình</string>
+			<key>RestaurantCode</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Circle K Trung Văn</string>
+			<key>Address</key>
+			<string>Ô T2, Dãy A, Khu Tạp Chí Cộng Sản, P.Trung Văn</string>
+			<key>RestaurantCode</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+</dict>
+</plist>
