@@ -1,20 +1,18 @@
 //
-//  MealList.swift
-//  OrderMeal
+//  HistoryTVC.swift
+//  OrderApp
 //
-//  Created by Luyen on 11/7/17.
+//  Created by HoangLuyen on 11/17/17.
 //  Copyright © 2017 Luyen. All rights reserved.
 //
 
 import UIKit
 
-class MealList: UITableViewController {
-    
-    
-    
+class HistoryTVC: UITableViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -31,27 +29,14 @@ class MealList: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 0
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return 0
     }
-    @IBAction func cancel(_ sender: UIBarButtonItem) {
-        dismiss(animated: true, completion: nil)
-        let isPresentingInAddMealMode = presentingViewController is UINavigationController
-        if isPresentingInAddMealMode {
-            dismiss(animated: true, completion: nil)
-        } else {
-            if let owningNavigationController = navigationController {
-                owningNavigationController.popViewController(animated: true)
-            } else {
-                fatalError("The MealViewController is not inside a navigation controller.")
-            }
-        }
-    }
-    
+
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
