@@ -37,6 +37,9 @@ class HistoryTVC: UITableViewController {
         return 0
     }
 
+    @IBAction func createNewTransaction(_ sender: Any) {
+        navigationController?.popToRootViewController(animated: true)
+    }
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
