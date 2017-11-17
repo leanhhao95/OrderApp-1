@@ -20,6 +20,7 @@
 		56279F681FBD2842002759A7 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56279F671FBD2842002759A7 /* ContainerVC.swift */; };
 		56279F6A1FBD295D002759A7 /* NotificationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56279F691FBD295D002759A7 /* NotificationKey.swift */; };
 		56279F6C1FBD2A25002759A7 /* AboutUsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56279F6B1FBD2A25002759A7 /* AboutUsTVC.swift */; };
+		56358EAC1FBE9397009F0DFB /* CustumButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56358EAB1FBE9397009F0DFB /* CustumButton.swift */; };
 		56D2F3F71FBE78250096D222 /* TransactionTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D2F3F61FBE78250096D222 /* TransactionTVC.swift */; };
 		56D2F3F91FBE7C510096D222 /* HistoryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D2F3F81FBE7C510096D222 /* HistoryTVC.swift */; };
 		56D2F4001FBE83F60096D222 /* Food.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56D2F3FE1FBE83ED0096D222 /* Food.plist */; };
@@ -42,6 +43,7 @@
 		56279F671FBD2842002759A7 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		56279F691FBD295D002759A7 /* NotificationKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationKey.swift; sourceTree = "<group>"; };
 		56279F6B1FBD2A25002759A7 /* AboutUsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsTVC.swift; sourceTree = "<group>"; };
+		56358EAB1FBE9397009F0DFB /* CustumButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustumButton.swift; sourceTree = "<group>"; };
 		56D2F3F61FBE78250096D222 /* TransactionTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTVC.swift; sourceTree = "<group>"; };
 		56D2F3F81FBE7C510096D222 /* HistoryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTVC.swift; sourceTree = "<group>"; };
 		56D2F3FE1FBE83ED0096D222 /* Food.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Food.plist; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			children = (
 				3BD850AB1FB529FF003D07E7 /* MealTableViewCell.swift */,
 				56279F691FBD295D002759A7 /* NotificationKey.swift */,
+				56358EAB1FBE9397009F0DFB /* CustumButton.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				3BD850AE1FB52B3B003D07E7 /* Meal.swift in Sources */,
 				56D2F3F91FBE7C510096D222 /* HistoryTVC.swift in Sources */,
 				3BD850AC1FB529FF003D07E7 /* MealTableViewCell.swift in Sources */,
+				56358EAC1FBE9397009F0DFB /* CustumButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
