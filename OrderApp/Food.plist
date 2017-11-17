@@ -39,7 +39,7 @@
 		<dict>
 			<key>Name</key>
 			<string>GÀ QUAY TIÊU/ GÀ BIG&apos;NJUICY</string>
-			<key>RestaurentCode</key>
+			<key>RestaurantCode</key>
 			<integer>1</integer>
 			<key>Price</key>
 			<integer>79000</integer>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>Name</key>
 			<string>COMBO CHIZZA</string>
-			<key>RestaurentCode</key>
+			<key>RestaurantCode</key>
 			<integer>1</integer>
 			<key>Price</key>
 			<integer>79000</integer>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>Name</key>
 			<string>COMBO DOUBLE MEAL</string>
-			<key>RestaurentCode</key>
+			<key>RestaurantCode</key>
 			<integer>1</integer>
 			<key>Price</key>
 			<integer>175000</integer>
@@ -63,7 +63,7 @@
 		<dict>
 			<key>Name</key>
 			<string>COMBO TEEN&apos;S CHOICE</string>
-			<key>RestaurentCode</key>
+			<key>RestaurantCode</key>
 			<integer>1</integer>
 			<key>Price</key>
 			<integer>63000</integer>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>Name</key>
 			<string>COMBO FAMILY MEAL</string>
-			<key>RestaurentCode</key>
+			<key>RestaurantCode</key>
 			<integer>1</integer>
 			<key>Price</key>
 			<integer>245000</integer>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>Name</key>
 			<string>MÌ TRỘN </string>
-			<key>RestaurentCode</key>
+			<key>RestaurantCode</key>
 			<integer>2</integer>
 			<key>Price</key>
 			<integer>10000</integer>
@@ -87,7 +87,7 @@
 		<dict>
 			<key>Name</key>
 			<string>CƠM TRỨNG CHIÊN VÀ CÁ HỘP</string>
-			<key>RestaurentCode</key>
+			<key>RestaurantCode</key>
 			<integer>2</integer>
 			<key>Price</key>
 			<integer>20000</integer>
@@ -95,7 +95,7 @@
 		<dict>
 			<key>Name</key>
 			<string>BÁNH MÌ</string>
-			<key>RestaurentCode</key>
+			<key>RestaurantCode</key>
 			<integer>2</integer>
 			<key>Price</key>
 			<integer>10000</integer>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>Name</key>
 			<string>BÁNH BAO</string>
-			<key>RestaurentCode</key>
+			<key>RestaurantCode</key>
 			<integer>2</integer>
 			<key>Price</key>
 			<integer>8000</integer>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>Name</key>
 			<string>CƠM NẮM</string>
-			<key>RestaurentCode</key>
+			<key>RestaurantCode</key>
 			<integer>2</integer>
 			<key>Price</key>
 			<integer>15000</integer>
@@ -119,7 +119,7 @@
 		<dict>
 			<key>Name</key>
 			<string>BÁNH GIÒ</string>
-			<key>RestaurentCode</key>
+			<key>RestaurantCode</key>
 			<integer>2</integer>
 			<key>Price</key>
 			<integer>10000</integer>
@@ -127,7 +127,7 @@
 		<dict>
 			<key>Name</key>
 			<string>SANDWICH</string>
-			<key>RestaurentCode</key>
+			<key>RestaurantCode</key>
 			<integer>2</integer>
 			<key>Price</key>
 			<integer>25000</integer>
@@ -135,7 +135,7 @@
 		<dict>
 			<key>Name</key>
 			<string>BÁNH SU KEM</string>
-			<key>RestaurentCode</key>
+			<key>RestaurantCode</key>
 			<integer>2</integer>
 			<key>Price</key>
 			<integer>7000</integer>
