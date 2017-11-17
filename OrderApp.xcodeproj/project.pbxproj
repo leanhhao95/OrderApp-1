@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22D954C41FBE9EDB00C648EF /* FoodPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D954C31FBE9EDB00C648EF /* FoodPlist.swift */; };
+		22D954C61FBEA27B00C648EF /* RestaurantPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D954C51FBEA27B00C648EF /* RestaurantPlist.swift */; };
 		3BBCD9311FB4574B007D294C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBCD9301FB4574B007D294C /* AppDelegate.swift */; };
 		3BBCD9381FB4574B007D294C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBCD9371FB4574B007D294C /* Assets.xcassets */; };
 		3BBCD93B1FB4574B007D294C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBCD9391FB4574B007D294C /* LaunchScreen.storyboard */; };
@@ -15,7 +17,7 @@
 		3BBCD9491FB45782007D294C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBCD9441FB4576C007D294C /* Main.storyboard */; };
 		3BD850AC1FB529FF003D07E7 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD850AB1FB529FF003D07E7 /* MealTableViewCell.swift */; };
 		3BD850AE1FB52B3B003D07E7 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD850AD1FB52B3B003D07E7 /* Meal.swift */; };
-		56000AF51FBE53FA00C98A19 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56000AF41FBE53FA00C98A19 /* Model.swift */; };
+		56000AF51FBE53FA00C98A19 /* PlistServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56000AF41FBE53FA00C98A19 /* PlistServices.swift */; };
 		56000AF71FBE540400C98A19 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56000AF61FBE540400C98A19 /* DataService.swift */; };
 		56279F681FBD2842002759A7 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56279F671FBD2842002759A7 /* ContainerVC.swift */; };
 		56279F6A1FBD295D002759A7 /* NotificationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56279F691FBD295D002759A7 /* NotificationKey.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22D954C31FBE9EDB00C648EF /* FoodPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPlist.swift; sourceTree = "<group>"; };
+		22D954C51FBEA27B00C648EF /* RestaurantPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantPlist.swift; sourceTree = "<group>"; };
 		3BBCD92D1FB4574B007D294C /* OrderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBCD9301FB4574B007D294C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BBCD9371FB4574B007D294C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,7 +41,7 @@
 		3BBCD9451FB45773007D294C /* MealTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTVC.swift; sourceTree = "<group>"; };
 		3BD850AB1FB529FF003D07E7 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		3BD850AD1FB52B3B003D07E7 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
-		56000AF41FBE53FA00C98A19 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		56000AF41FBE53FA00C98A19 /* PlistServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistServices.swift; sourceTree = "<group>"; };
 		56000AF61FBE540400C98A19 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		56279F671FBD2842002759A7 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		56279F691FBD295D002759A7 /* NotificationKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationKey.swift; sourceTree = "<group>"; };
@@ -117,7 +121,9 @@
 			isa = PBXGroup;
 			children = (
 				3BD850AD1FB52B3B003D07E7 /* Meal.swift */,
-				56000AF41FBE53FA00C98A19 /* Model.swift */,
+				56000AF41FBE53FA00C98A19 /* PlistServices.swift */,
+				22D954C31FBE9EDB00C648EF /* FoodPlist.swift */,
+				22D954C51FBEA27B00C648EF /* RestaurantPlist.swift */,
 				56000AF61FBE540400C98A19 /* DataService.swift */,
 			);
 			path = Model;
@@ -208,11 +214,13 @@
 			files = (
 				56279F6A1FBD295D002759A7 /* NotificationKey.swift in Sources */,
 				3BBCD9431FB45768007D294C /* RestaurantTVC.swift in Sources */,
+				22D954C41FBE9EDB00C648EF /* FoodPlist.swift in Sources */,
 				56279F681FBD2842002759A7 /* ContainerVC.swift in Sources */,
 				3BBCD9311FB4574B007D294C /* AppDelegate.swift in Sources */,
+				22D954C61FBEA27B00C648EF /* RestaurantPlist.swift in Sources */,
 				3BBCD9461FB45773007D294C /* MealTVC.swift in Sources */,
 				56000AF71FBE540400C98A19 /* DataService.swift in Sources */,
-				56000AF51FBE53FA00C98A19 /* Model.swift in Sources */,
+				56000AF51FBE53FA00C98A19 /* PlistServices.swift in Sources */,
 				56D2F3F71FBE78250096D222 /* TransactionTVC.swift in Sources */,
 				56279F6C1FBD2A25002759A7 /* AboutUsTVC.swift in Sources */,
 				3BD850AE1FB52B3B003D07E7 /* Meal.swift in Sources */,
