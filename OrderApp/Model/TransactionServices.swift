@@ -18,14 +18,10 @@ class TransactionServices {
     var price : Int = 0
     var data: Int = 1
     var total : Int = 0
-    var array = [Int]()
+    var arrayPriceIsChosen = [Int]()
     var arraydate = [String]()
-    var arrayPrice = [Int]()
+    var arrayPriceToTal = [Int]()
     
-    func saveData(){
-        var saveString = [String]()
-        saveString
-    }
     
    private var _totalAllFoodChosen: Int = 0
     var totalAllFoodChosen: Int {
@@ -40,7 +36,7 @@ class TransactionServices {
         }
     }
     func calculatorTotal() {
-        for i in array {
+        for i in arrayPriceIsChosen {
             _totalAllFoodChosen += i
         }
     }

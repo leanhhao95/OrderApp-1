@@ -10,7 +10,6 @@
 		2217F2F91FC0FBCA00357BFC /* TransactionContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2217F2F81FC0FBCA00357BFC /* TransactionContainerVC.swift */; };
 		2224BFEF1FBF9D530024ABFE /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224BFEE1FBF9D530024ABFE /* TransactionTableViewCell.swift */; };
 		223831781FC10583001444CF /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223831771FC10583001444CF /* HistoryCell.swift */; };
-		2238317A1FC109E2001444CF /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223831791FC109E2001444CF /* Meal.swift */; };
 		22D954C41FBE9EDB00C648EF /* FoodPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D954C31FBE9EDB00C648EF /* FoodPlist.swift */; };
 		22D954C61FBEA27B00C648EF /* RestaurantPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D954C51FBEA27B00C648EF /* RestaurantPlist.swift */; };
 		22FAFFF31FBED5CB00D700D9 /* TransactionServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FAFFF21FBED5CB00D700D9 /* TransactionServices.swift */; };
@@ -36,7 +35,6 @@
 		2217F2F81FC0FBCA00357BFC /* TransactionContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionContainerVC.swift; sourceTree = "<group>"; };
 		2224BFEE1FBF9D530024ABFE /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
 		223831771FC10583001444CF /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
-		223831791FC109E2001444CF /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		22D954C31FBE9EDB00C648EF /* FoodPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPlist.swift; sourceTree = "<group>"; };
 		22D954C51FBEA27B00C648EF /* RestaurantPlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantPlist.swift; sourceTree = "<group>"; };
 		22FAFFF21FBED5CB00D700D9 /* TransactionServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionServices.swift; sourceTree = "<group>"; };
@@ -122,7 +120,6 @@
 				3BBCD9451FB45773007D294C /* MealTVC.swift */,
 				3BBCD9421FB45768007D294C /* RestaurantTVC.swift */,
 				2217F2F81FC0FBCA00357BFC /* TransactionContainerVC.swift */,
-				223831791FC109E2001444CF /* Meal.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -233,7 +230,6 @@
 				22D954C61FBEA27B00C648EF /* RestaurantPlist.swift in Sources */,
 				2217F2F91FC0FBCA00357BFC /* TransactionContainerVC.swift in Sources */,
 				3BBCD9461FB45773007D294C /* MealTVC.swift in Sources */,
-				2238317A1FC109E2001444CF /* Meal.swift in Sources */,
 				56000AF71FBE540400C98A19 /* DataService.swift in Sources */,
 				56000AF51FBE53FA00C98A19 /* PlistServices.swift in Sources */,
 				56279F6C1FBD2A25002759A7 /* AboutUsTVC.swift in Sources */,

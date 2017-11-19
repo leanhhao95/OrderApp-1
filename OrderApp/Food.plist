@@ -5,6 +5,8 @@
 	<key>Food</key>
 	<array>
 		<dict>
+			<key>Image</key>
+			<string>burgervang</string>
 			<key>Name</key>
 			<string>COMBO BURGER VÀNG</string>
 			<key>RestaurantCode</key>
@@ -13,6 +15,8 @@
 			<integer>89000</integer>
 		</dict>
 		<dict>
+			<key>Image</key>
+			<string>gavang</string>
 			<key>Name</key>
 			<string>COMBO GÀ VÀNG</string>
 			<key>RestaurantCode</key>
@@ -21,6 +25,8 @@
 			<integer>89000</integer>
 		</dict>
 		<dict>
+			<key>Image</key>
+			<string>garan</string>
 			<key>Name</key>
 			<string>COMBO GÀ RÁN</string>
 			<key>RestaurantCode</key>
@@ -29,6 +35,8 @@
 			<integer>79000</integer>
 		</dict>
 		<dict>
+			<key>Image</key>
+			<string>phanantreem</string>
 			<key>Name</key>
 			<string>COMBO PHẦN ĂN TRẺ EM</string>
 			<key>RestaurantCode</key>
@@ -37,6 +45,8 @@
 			<integer>56000</integer>
 		</dict>
 		<dict>
+			<key>Image</key>
+			<string>gaquaytieu</string>
 			<key>Name</key>
 			<string>GÀ QUAY TIÊU/ GÀ BIG&apos;NJUICY</string>
 			<key>RestaurantCode</key>
@@ -45,6 +55,8 @@
 			<integer>79000</integer>
 		</dict>
 		<dict>
+			<key>Image</key>
+			<string>chizza</string>
 			<key>Name</key>
 			<string>COMBO CHIZZA</string>
 			<key>RestaurantCode</key>
@@ -53,6 +65,8 @@
 			<integer>79000</integer>
 		</dict>
 		<dict>
+			<key>Image</key>
+			<string>teenchoice</string>
 			<key>Name</key>
 			<string>COMBO TEEN&apos;S CHOICE</string>
 			<key>RestaurantCode</key>
@@ -61,6 +75,8 @@
 			<integer>63000</integer>
 		</dict>
 		<dict>
+			<key>Image</key>
+			<string>family</string>
 			<key>Name</key>
 			<string>COMBO FAMILY MEAL</string>
 			<key>RestaurantCode</key>
@@ -69,6 +85,8 @@
 			<integer>245000</integer>
 		</dict>
 		<dict>
+			<key>Image</key>
+			<string>mitron</string>
 			<key>Name</key>
 			<string>MÌ TRỘN </string>
 			<key>RestaurantCode</key>
@@ -77,6 +95,8 @@
 			<integer>10000</integer>
 		</dict>
 		<dict>
+			<key>Image</key>
+			<string>comtrungchien</string>
 			<key>Name</key>
 			<string>CƠM TRỨNG CHIÊN VÀ CÁ HỘP</string>
 			<key>RestaurantCode</key>
@@ -85,6 +105,8 @@
 			<integer>20000</integer>
 		</dict>
 		<dict>
+			<key>Image</key>
+			<string>banhmi</string>
 			<key>Name</key>
 			<string>BÁNH MÌ</string>
 			<key>RestaurantCode</key>
@@ -93,6 +115,8 @@
 			<integer>10000</integer>
 		</dict>
 		<dict>
+			<key>Image</key>
+			<string>banhbao</string>
 			<key>Name</key>
 			<string>BÁNH BAO</string>
 			<key>RestaurantCode</key>
@@ -101,6 +125,8 @@
 			<integer>8000</integer>
 		</dict>
 		<dict>
+			<key>Image</key>
+			<string>comnam</string>
 			<key>Name</key>
 			<string>CƠM NẮM</string>
 			<key>RestaurantCode</key>
@@ -109,6 +135,8 @@
 			<integer>15000</integer>
 		</dict>
 		<dict>
+			<key>Image</key>
+			<string>banhgio</string>
 			<key>Name</key>
 			<string>BÁNH GIÒ</string>
 			<key>RestaurantCode</key>
@@ -117,6 +145,8 @@
 			<integer>10000</integer>
 		</dict>
 		<dict>
+			<key>Image</key>
+			<string>sanwich</string>
 			<key>Name</key>
 			<string>SANDWICH</string>
 			<key>RestaurantCode</key>
@@ -125,6 +155,8 @@
 			<integer>25000</integer>
 		</dict>
 		<dict>
+			<key>Image</key>
+			<string>banhsukem</string>
 			<key>Name</key>
 			<string>BÁNH SU KEM</string>
 			<key>RestaurantCode</key>

@@ -30,7 +30,7 @@ class MealTableViewCell: UITableViewCell,UITextFieldDelegate {
         if textField.text != "" {
             numberFoodTextField.text = textField.text
         } else {
-            numberFoodTextField.text = "\(1)"
+            numberFoodTextField.text = "\(0)"
         }
     }
     func textFieldDidBeginEditing(_ textField: UITextField) {
@@ -40,10 +40,6 @@ class MealTableViewCell: UITableViewCell,UITextFieldDelegate {
         let invalidCharacters = CharacterSet(charactersIn: "0123456789").inverted
         return string.rangeOfCharacter(from: invalidCharacters, options: [], range: string.startIndex ..< string.endIndex) == nil
     }
-    override func prepareForReuse() {
-        priceLabel.text = ""
-        mealNameLabel.text = ""
-        numberFoodTextField.text = ""
-    }
+  
 }
 

@@ -12,6 +12,19 @@ class RestaurantTVC: UITableViewController{
         super.viewDidLoad()
        navigationController?.navigationItem.backBarButtonItem?.isEnabled = false
     }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        let defaults = UserDefaults.standard
+        let myarray = defaults.stringArray(forKey: defaultKeys.dateKey) ?? [String]()
+        let myInt = defaults.array(forKey: defaultKeys.priceKey) as? [Int] ?? [Int]()
+        TransactionServices.shared.arraydate = myarray
+        TransactionServices.shared.arrayPriceToTal = myInt
+        print(myarray)
+        print(myInt)
+    }
+    deinit {
+        print("da deinit")
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

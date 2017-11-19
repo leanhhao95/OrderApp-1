@@ -25,24 +25,31 @@ class TransactionContainerVC: UIViewController,UITableViewDelegate,UITableViewDa
         // #warning Incomplete implementation, return the number of rows
         return TransactionServices.shared.foodChosen.count
     }
+    // tinh toan du lieu truoc
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "transactionCell", for: indexPath) as! TransactionTableViewCell
         cell.nameFoodChosenLabel.text  = TransactionServices.shared.foodChosen[indexPath.row].name
-        cell.priceFoodChosenLabel.text = String(TransactionServices.shared.foodChosen[indexPath.row].price)
+        cell.priceFoodChosenLabel.text = "\(TransactionServices.shared.foodChosen[indexPath.row].price) VNĐ"
         total = TransactionServices.shared.qty[indexPath.row] *  TransactionServices.shared.foodChosen[indexPath.row].price
-        cell.totalLabel.text = "\(total)"
-        TransactionServices.shared.array.append(total)
+        cell.totalLabel.text = "\(total) VNĐ"
+        TransactionServices.shared.arrayPriceIsChosen.append(total)
         return cell
     }
+    // sau khi tinh toan du lieu mo hien ra tong
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         canculateTotalLabel.text = "\(TransactionServices.shared.totalAllFoodChosen) VNĐ"
     }
-    
+    // transaction button
     @IBAction func saveContextToMeal(_ sender: Any) {
         TransactionServices.shared.arraydate.append(today.toString(dateFormat: "yyyy-MM-dd HH:mm:ss"))
-        TransactionServices.shared.arrayPrice.append(TransactionServices.shared.totalAllFoodChosen)
+        TransactionServices.shared.arrayPriceToTal.append(TransactionServices.shared.totalAllFoodChosen)
     }
-  
+    @IBAction func backBarButton(_ sender: Any) {
+        TransactionServices.shared.totalAllFoodChosen = 0
+        TransactionServices.shared.arrayPriceIsChosen.removeAll()
+        navigationController?.popViewController(animated: true)
+    }
+    
 }
 
