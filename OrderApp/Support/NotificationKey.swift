@@ -14,4 +14,5 @@ extension Notification.Name {
     static let sendData = Notification.Name.init("sendData")
     static let callBack = Notification.Name.init("callBack")
     static let getTotal = Notification.Name.init("getTotal")
+    static let done = Notification.Name.init("done")
 }

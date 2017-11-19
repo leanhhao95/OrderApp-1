@@ -14,6 +14,7 @@ class HistoryTVC: UITableViewController {
     let defaults = UserDefaults.standard
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationController?.isNavigationBarHidden = false
     }
     
     override func didReceiveMemoryWarning() {
@@ -38,6 +39,17 @@ class HistoryTVC: UITableViewController {
             saveData()
         return cell
     }
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            TransactionServices.shared.arraydate.remove(at: indexPath.row)
+            TransactionServices.shared.arrayPriceToTal.remove(at: indexPath.row)
+            saveData()
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        } else if editingStyle == .insert {
+            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+        }
+    }
+    
     // luu du lieu
     func saveData() {
         defaults.set(TransactionServices.shared.arraydate, forKey: defaultKeys.dateKey)

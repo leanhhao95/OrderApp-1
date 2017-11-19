@@ -17,6 +17,7 @@ class ContainerVC: UIViewController {
         didSet {
             self.leadingContraint.constant = self.isSlideMenuOpen ? 0 : -self.slideMenu.frame.width
             self.closeSlideMenu.isEnabled = self.isSlideMenuOpen ? true : false
+            
             UIView.animate(withDuration: 0.35, animations: {
                 self.view.layoutIfNeeded()
             } , completion: nil)
@@ -39,6 +40,7 @@ class ContainerVC: UIViewController {
     
     @IBAction func closeSlideMenu(_ sender: UIButton) {
         isSlideMenuOpen = !isSlideMenuOpen
+        NotificationCenter.default.post(name: .done, object: nil)
     }
     
     /*

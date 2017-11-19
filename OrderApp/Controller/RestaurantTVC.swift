@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 class RestaurantTVC: UITableViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,11 +20,6 @@ class RestaurantTVC: UITableViewController{
         let myInt = defaults.array(forKey: defaultKeys.priceKey) as? [Int] ?? [Int]()
         TransactionServices.shared.arraydate = myarray
         TransactionServices.shared.arrayPriceToTal = myInt
-        print(myarray)
-        print(myInt)
-    }
-    deinit {
-        print("da deinit")
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -36,10 +32,19 @@ class RestaurantTVC: UITableViewController{
      
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-        cell.textLabel?.text = DataServices.shared.restaurant[indexPath.row].name
-        cell.detailTextLabel?.text = DataServices.shared.restaurant[indexPath.row].address
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! RestaurantCell
+       configureCell(cell, indexPath: indexPath)
         return cell
+    }
+    func configureCell(_ cell: RestaurantCell, indexPath: IndexPath) {
+        cell.nameLabel.text = DataServices.shared.restaurant[indexPath.row].name
+        cell.addressLabel.text = DataServices.shared.restaurant[indexPath.row].address
+        if DataServices.shared.restaurant[indexPath.row].restaurantCode == 1 {
+            cell.backGroundImageView.image = UIImage(named: "images") 
+        } else {
+            cell.backGroundImageView.image =  UIImage(named: "circle_k_logo")
+        }
+       
     }
     @IBAction func openSlideMenu(_ sender: UIBarButtonItem) {
         NotificationCenter.default.post(name: .slideMenuKey, object: nil)
