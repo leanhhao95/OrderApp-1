@@ -8,6 +8,10 @@
 
 import Foundation
 
-struct NotificationKey {
+
+extension Notification.Name {
     static let slideMenuKey = Notification.Name.init("slideMenuKey")
+    static let sendData = Notification.Name.init("sendData")
+    static let callBack = Notification.Name.init("callBack")
+    static let getTotal = Notification.Name.init("getTotal")
 }

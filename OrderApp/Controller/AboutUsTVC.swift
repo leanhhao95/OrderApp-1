@@ -25,7 +25,7 @@ class AboutUsTVC: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func closeSlideMenu(_ sender: UIButton) {
-        NotificationCenter.default.post(name: NotificationKey.slideMenuKey, object: nil)
+        NotificationCenter.default.post(name: .slideMenuKey, object: nil)
     }
     
     // MARK: - Table view data source

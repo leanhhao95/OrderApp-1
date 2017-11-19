@@ -34,7 +34,7 @@ class ContainerVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     func receiveOpenSlide() {
-        NotificationCenter.default.addObserver(self, selector: #selector(closeSlideMenu(_:)), name: NotificationKey.slideMenuKey, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(closeSlideMenu(_:)), name: .slideMenuKey, object: nil)
     }
     
     @IBAction func closeSlideMenu(_ sender: UIButton) {

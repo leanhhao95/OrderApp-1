@@ -54,14 +54,6 @@
 		</dict>
 		<dict>
 			<key>Name</key>
-			<string>COMBO DOUBLE MEAL</string>
-			<key>RestaurantCode</key>
-			<integer>1</integer>
-			<key>Price</key>
-			<integer>175000</integer>
-		</dict>
-		<dict>
-			<key>Name</key>
 			<string>COMBO TEEN&apos;S CHOICE</string>
 			<key>RestaurantCode</key>
 			<integer>1</integer>

@@ -10,17 +10,13 @@ import UIKit
 class RestaurantTVC: UITableViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+       navigationController?.navigationItem.backBarButtonItem?.isEnabled = false
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-   
     // MARK: - Table view data source
-
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return DataServices.shared.restaurant.count
@@ -33,7 +29,7 @@ class RestaurantTVC: UITableViewController{
         return cell
     }
     @IBAction func openSlideMenu(_ sender: UIBarButtonItem) {
-        NotificationCenter.default.post(name: NotificationKey.slideMenuKey, object: nil)
+        NotificationCenter.default.post(name: .slideMenuKey, object: nil)
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         DataServices.shared.selectedFood = DataServices.shared.restaurant[indexPath.row].restaurantCode
